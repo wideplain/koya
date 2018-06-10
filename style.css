@@ -1,0 +1,66 @@
+.wf-mplus1p { font-family: "Mplus 1p"; }
+.top a {
+  color: white;
+  text-decoration: none;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #273966;
+  color: white;
+  line-height: 1;
+}
+
+.prof-img {
+  width: 20vh;
+  height: 20vh;
+  background-size: cover;
+  background-image: url(prof.jpg);
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #dddddd;
+}
+
+.my-name {
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+.sns {
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+.sns-icon {
+  font-size: 2em;
+  margin: 10px 10px 10px 0;
+}
+
+.top-wrap {
+  border-left: 1px solid white;
+  padding-left: 2vw;
+  margin-left: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-info {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-device-width: 480px) {
+  .top {
+    flex-direction: column;
+
+  }
+  .prof-img {
+    margin-bottom: 3vh;
+
+  }
+  .top-wrap {
+    border: none;
+  }
+}
