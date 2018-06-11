@@ -35,7 +35,7 @@
 }
 
 .sns-icon {
-  font-size: 2em;
+  font-size: 1.8em;
   margin: 10px 10px 10px 0;
 }
 
@@ -63,4 +63,19 @@
   .top-wrap {
     border: none;
   }
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: gray;
+  line-height: 1;
+}
+
+.googleForm {
+  width: 100vw;
+  height: 100vh;
 }
