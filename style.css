@@ -77,6 +77,9 @@
 .column {
   flex-direction: column;
 }
+.messagebox-in {
+  margin: 3vw;
+}
 .messagebox {
   line-height: 1.5;
 }
