@@ -19,6 +19,7 @@
   height: 20vh;
   background-size: cover;
   background-image: url(prof.jpg);
+  background-color: #f5f5f5;
   margin: 10px;
   border-radius: 50%;
   box-shadow: 0 0 4px #dddddd;
@@ -74,7 +75,9 @@
   color: gray;
   line-height: 1;
 }
-
+.column {
+  flex-direction: column;
+}
 .googleForm {
   width: 100vw;
   height: 100vh;
