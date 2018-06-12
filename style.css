@@ -1,6 +1,6 @@
 .wf-mplus1p { font-family: "Mplus 1p"; }
 .top a {
-  color: white;
+  color:#273966;
   text-decoration: none;
 }
 .top {
@@ -9,8 +9,6 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #273966;
-  color: white;
   line-height: 1;
 }
 
@@ -41,7 +39,7 @@
 }
 
 .top-wrap {
-  border-left: 1px solid white;
+  border-left: 1px solid #273966;
   padding-left: 2vw;
   margin-left: 2vw;
   align-items: center;
@@ -74,9 +72,13 @@
   height: 100vh;
   color: gray;
   line-height: 1;
+  border-top: 1px solid #273966;
 }
 .column {
   flex-direction: column;
+}
+.messagebox {
+  line-height: 1.5;
 }
 .googleForm {
   width: 100vw;
