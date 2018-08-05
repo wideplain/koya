@@ -1,7 +1,15 @@
-.wf-mplus1p { font-family: "Mplus 1p"; }
+.wf-mplus1p {
+  font-family: "Mplus 1p";
+}
+.background {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
 .top a {
-  color:#273966;
+  color: #fff;
   text-decoration: none;
+  text-shadow: 0 0 3px #273966;
 }
 .top {
   display: flex;
@@ -24,8 +32,10 @@
 }
 
 .my-name {
+  color: #fff;
   font-size: 2.5em;
   font-weight: 200;
+  text-shadow: 0 0 4px #273966;
 }
 
 .sns {
@@ -39,7 +49,7 @@
 }
 
 .top-wrap {
-  border-left: 1px solid #273966;
+  border-left: 1px solid #fff;
   padding-left: 2vw;
   margin-left: 2vw;
   align-items: center;
@@ -53,11 +63,9 @@
 @media screen and (max-device-width: 480px) {
   .top {
     flex-direction: column;
-
   }
   .prof-img {
     margin-bottom: 3vh;
-
   }
   .top-wrap {
     border: none;
@@ -83,7 +91,7 @@
 .messagebox {
   line-height: 1.5;
 }
-.googleForm {
+#googleForm {
   width: 100vw;
   height: 100vh;
 }
